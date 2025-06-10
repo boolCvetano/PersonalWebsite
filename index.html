@@ -1,47 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="mk">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Персонална веб страна - [Стефан Цветановски]</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
 <header>
-  <h1>Добредојдовте на мојата веб страна!</h1>
-  <nav>
-    <a href="#about">О мене</a>
-    <a href="#education">Образование</a>
-    <a href="#skills">Вештини</a>
-    <a href="#contact">Контакт</a>
-  </nav>
+  <div class="container">
+    <h1>Здраво, јас сум [Стефан Цветановски]</h1>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="#about">За мене</a></li>
+        <li><a href="#education">Образование</a></li>
+        <li><a href="#skills">Вештини</a></li>
+        <li><a href="#contact">Контакт</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
-<section id="about">
-  <h2>О мене</h2>
-  <p>Јас сум студент на ФИНКИ и ова е мојата персонална веб страница.</p>
-</section>
+<main class="container">
+  <!-- За мене -->
+  <section id="about">
+    <h2>За мене</h2>
+    <p>Јас сум студент на ФИНКИ, пасиониран за веб развој и технологија. Сакам да учам нови работи и да изработувам практични проекти.</p>
+  </section>
 
-<section id="education">
-  <h2>Образование</h2>
-  <p>Основно, средно и ФИНКИ – Скопје.</p>
-</section>
+  <!-- Образование -->
+  <section id="education">
+    <h2>Образование</h2>
+    <ul>
+      <li>Основно училиште – [ООУ Владо Тасевски]</li>
+      <li>Средно училиште – [СУГС Георги Димитров]</li>
+      <li>ФИНКИ – [Софтверско Инжженерство и Информациски Системи]</li>
+    </ul>
+  </section>
 
-<section id="skills">
-  <h2>Вештини</h2>
-  <ul>
-    <li>HTML & CSS</li>
-    <li>C++</li>
-    <li>JavaScript</li>
-  </ul>
-</section>
+  <!-- Вештини -->
+  <section id="skills">
+    <h2>Вештини</h2>
+    <ul class="skills">
+      <li>HTML & CSS</li>
+      <li>JavaScript</li>
+      <li>C++ / C#</li>
+      <li>Git & GitHub</li>
+      <li>Responsive Design</li>
+    </ul>
+  </section>
 
-<section id="contact">
-  <h2>Контакт</h2>
-  <p>Email: moetoime@example.com</p>
-</section>
+  <!-- Контакт -->
+  <section id="contact">
+    <h2>Контакт</h2>
+    <p>📧 Email: stefancvetanovski.sc@gmail.com</p>
+    <p>🌐 GitHub: <a href="https://github.com/boolCvetano" target="_blank">github.com/boolCvetano</a></p>
+  </section>
+</main>
 
 <footer>
-  <p>&copy; 2025 Мојата страна. Сите права задржани.</p>
+  <p>&copy; 2025 [Стефан Цветановски]. Сите права задржани.</p>
 </footer>
 </body>
 </html>
